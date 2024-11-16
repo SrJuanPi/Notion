@@ -1,0 +1,20 @@
+.button {
+    width: max-content;
+    height: max-content;
+    background-color: rgba(7, 146, 216, 0);
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    text-decoration: none;
+}
+
+.bgbutton {
+    /* background-color: rgb(35, 123, 181); */
+    background: linear-gradient(to bottom right, #18b7fb, #112763);
+    width: max-content;
+    height: max-content;
+    padding: 5%;
+    border-radius: 100%;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.6);
+}
