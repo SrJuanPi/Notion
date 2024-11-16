@@ -7,7 +7,6 @@
     font-weight: bold;
     font-family: monospace;
     text-decoration: none;
-    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
 }
 
 .bgbutton {
