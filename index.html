@@ -10,9 +10,20 @@
 
 <body>
     <div class="bgbutton">
-        <div class="button"><a href="notion://www.notion.so/juanitoweb/Libros-39f4d8d53ad64595b49be7a3869e07ac?pvs=4"
-                class="button" target="_blank">📘</a></div>
+        <div class="button"><a id="libros" onclick="navigate(this.id)" href="#" class="button" target="_blank">📘</a>
+        </div>
     </div>
+    <script>
+        let direction = "horizontal";
+        if (direction === "vertical") {
+            document.head.insertAdjacentHTML("beforeend", `<style>.navMenu a {display: block; text-align:left; margin:7px} i{width:15px; margin-right:5px} .navMenu{margin:3px}</style>`);
+        }
+
+        function navigate(id) {
+            if (id == "libros")
+                window.open("https://www.notion.so/juanitoweb/Libros-39f4d8d53ad64595b49be7a3869e07ac?pvs=4", '_blank').focus(); // Agrega más condiciones según sea necesario
+        }
+    </script>
 </body>
 
 </html>
