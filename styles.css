@@ -3,11 +3,20 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
+    width: 100vw;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0);
 }
 
-.bgbutton {
-    background: linear-gradient(to bottom right, #18b7fb, #112763);
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    /* Espacio entre los círculos */
+}
+
+.bg {
     padding: 5%;
     border-radius: 50%;
     box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.6);
@@ -16,11 +25,9 @@ body {
     align-items: center;
 }
 
-.button {
-    background-color: rgba(7, 146, 216, 0);
+.icon {
+    color: rgba(255, 255, 255, 0.7);
     font-size: 10vw;
-    /* Ajusta el tamaño de la fuente según el ancho de la ventana */
-    color: white;
     font-weight: bold;
     font-family: monospace;
     text-decoration: none;
@@ -29,8 +36,23 @@ body {
     justify-content: center;
     align-items: center;
     width: 20vw;
-    /* Ajusta el ancho según el ancho de la ventana */
     height: 20vw;
-    /* Ajusta la altura según el ancho de la ventana */
     border-radius: 50%;
+    transition: color 0.2s ease-in-out;
+}
+
+.icon:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+#books {
+    background: linear-gradient(to bottom right, #12c8fb, #0c1f55);
+}
+
+#notes {
+    background: linear-gradient(to bottom right, #e0e6e8, #333335);
+}
+
+#school {
+    background: linear-gradient(to bottom right, #ffff00, #b35503);
 }
