@@ -2,9 +2,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    width: 100vw; /* Ancho del viewport */
+    height: 100vh; /* Altura del viewport */
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: transparent; /* Fondo transparente */
 }
 
 .bgbutton {
