@@ -2,10 +2,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw; /* Ancho del viewport */
-    height: 100vh; /* Altura del viewport */
     margin: 0;
-    background-color: transparent; /* Fondo transparente */
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .bgbutton {
@@ -20,7 +18,8 @@ body {
 
 .button {
     background-color: rgba(7, 146, 216, 0);
-    font-size: 10vw; /* Ajusta el tamaño de la fuente según el ancho de la ventana */
+    font-size: 10vw;
+    /* Ajusta el tamaño de la fuente según el ancho de la ventana */
     color: white;
     font-weight: bold;
     font-family: monospace;
@@ -29,7 +28,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20vw; /* Ajusta el ancho según el ancho de la ventana */
-    height: 20vw; /* Ajusta la altura según el ancho de la ventana */
+    width: 20vw;
+    /* Ajusta el ancho según el ancho de la ventana */
+    height: 20vw;
+    /* Ajusta la altura según el ancho de la ventana */
     border-radius: 50%;
 }
