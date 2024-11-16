@@ -5,14 +5,18 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 </head>
 
 <body>
     <div class="bgbutton">
-        <div class="button"><a href="notion://www.notion.so/juanitoweb/Libros-39f4d8d53ad64595b49be7a3869e07ac?pvs=4"
-                class="button" target="_blank">📘</a></div>
+        <div class="button" onclick="openNotion()">📘</div>
     </div>
+
+    <script>
+        function openNotion() {
+            window.location.href = "notion://www.notion.so/juanitoweb/Libros-39f4d8d53ad64595b49be7a3869e07ac?pvs=4";
+        }
+    </script>
 </body>
 
 </html>
