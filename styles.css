@@ -1,19 +1,34 @@
-.button {
-    width: max-content;
-    height: max-content;
-    background-color: rgba(7, 146, 216, 0);
-    font-size: 100px;
-    color: white;
-    font-weight: bold;
-    font-family: monospace;
-    text-decoration: none;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
 }
 
 .bgbutton {
     background: linear-gradient(to bottom right, #18b7fb, #112763);
-    width: max-content;
-    height: max-content;
     padding: 5%;
-    border-radius: 100%;
+    border-radius: 50%;
     box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: rgba(7, 146, 216, 0);
+    font-size: 10vw; /* Ajusta el tamaño de la fuente según el ancho de la ventana */
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw; /* Ajusta el ancho según el ancho de la ventana */
+    height: 20vw; /* Ajusta la altura según el ancho de la ventana */
+    border-radius: 50%;
 }
