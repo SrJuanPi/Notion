@@ -48,10 +48,10 @@ body {
     background: linear-gradient(to bottom right, #fb12c1, #581478);
 }
 
-#proyectos {
-    background: linear-gradient(to bottom right, #e0e6e8, #333335);
+#pending {
+    background: linear-gradient(to bottom right, #ffa600, #a00e04);
 }
 
-#habitos {
-    background: linear-gradient(to bottom right, #ff2828, #4f0101);
+#principios {
+    background: linear-gradient(to bottom right, #71c4ff, #0c454e);
 }
